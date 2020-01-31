@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Gurajada|Rajdhani|Ubuntu:700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.home-sec1{
+    background: url("../assets/img/home/img-1.webp");
+    height: 92vh;
+    width: 100%;
+    background-position: left;
+    background-size: cover;
+    opacity: 0.9;
+    
+}
+.content{
+    transform: translateY(40vh);
+    text-align: center;
+    height: 100%;
+    
+
+}
+.content h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.content p{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.home-sec2{
+    background: url("../assets/img/home/img-2.webp");
+    height:100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 0.548);
+
+    
+}
+.dark-background{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+.content-2{
+    transform: translateY(40vh);
+    text-align: center;
+    height: 100%;
+   
+    
+
+}
+.content-2 h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.content-2 p{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.purple-button{
+    margin-top: 4rem;
+    background: none;
+    background-color: #512da8;
+    border-radius: 45px;
+    border: 5px #512da8;
+    color: white;
+    width: 150px;
+    height: 75px;
+    font-size: large;
+    cursor: pointer;
+    outline: none;
+    
+
+
+}
+.home-sec3{
+    background: url("../assets/img/home/img-3.webp");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+
+}
+.background{
+    height: 100vh;
+    
+}
+.content-3{
+    transform: translateY(40vh);
+    text-align: center;
+}
+.content-3 h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    padding: 1rem;
+}
+.content-3 p{
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 700px){
+    .content{
+        transform: translateY(30vh);
+
+    }
+    .content p{
+      padding-top: 15vh;
+    }
+
+    .home-sec2{
+        background-position: -250px;
+    }
+    .home-sec3{
+        background-position: -425px;
+
+    }
+    .content-2{
+        transform: translateY(25vh);
+    }
+
+}
+@media screen and (max-height: 450px){
+    
+    .content p{
+      padding-top: 10vh;
+    }
+
+    .home-sec2{
+        background-position: center;
+    }
+    .home-sec3{
+        background-position: center;
+
+    }
+    .content-2{
+        transform: translateY(10vh);
+    }
+    .purple-button{
+        margin-top: 3rem;
+    }
+
+}

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Varela|Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../assets/img/login/portrait-of-woman-photographing-with-smart-phone-248021.webp");
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+    z-index:-99;
+}
+.login{
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    transform: translateY(50%);
+    border-radius: 20px;
+
+}
+.header-text{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    padding: 1rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.username{
+    font-family: 'Varela Round', sans-serif;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+
+}
+.username input{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 2px black solid;
+    font-size: 1rem;
+    font-weight:thick;
+    padding-left: 1.5rem;
+    color: black;
+    outline: none;
+
+}
+
+.password{
+    font-family: 'Varela Round', sans-serif;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+    
+
+}
+.password input{
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    height: 40px;
+    background: none;
+    border-radius: 5px;
+    border: 2px black solid;
+    font-size: 1rem;
+    font-weight:thick;
+    padding-left: 1.5rem;
+    color: black;
+    outline: none;
+
+}
+
+.forgot-pwd{
+    font-family: 'Lato', sans-serif;
+    font-size: 0.75rem;
+    text-align: right;
+    padding-right: 20px;
+
+}
+.login-button{
+    height: 50px;
+    width: 170px;
+    background-color: black;
+    font-family: 'Varela Round', sans-serif;
+    margin: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 45px;
+    border-color: black;
+    color: white;
+    outline: none;
+
+
+
+}
+
+.register{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.75rem;
+    text-decoration: underline;
+    color: black;
+    margin-top: 2rem;
+
+}
+
+@media screen and (max-width:550px){
+    .bg-img{
+        background-position: -65vh;
+    }
+    .container{
+        transform: translateY(40%);
+    }
+}
+@media screen and (max-width:450px){
+    
+    .container{
+        width: 300px;  
+     
+    }
+}
+
+@media screen and (max-width:450px){
+    
+    .container{
+        width: 300px;  
+     
+    }
+}
+@media screen and (max-height:450px){
+    
+    .bg-img{
+        background-position: top right;
+    }
+    .container{
+
+        transform: translateY(25%);
+    }
+    .login{
+        height: 150vh;
+    }
+}
+@media screen and (max-height:550px){
+    
+    .bg-img{
+        background-position: center;
+    }
+    
+}

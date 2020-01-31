@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.form-bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../portrait-of-woman-photographing-with-smart-phone-248021.webp");
+    background-size: cover;
+    background-position: top right;
+    background-attachment: fixed;
+    z-index: -99;
+}
+.login{
+    height: 100vh;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: auto;
+    transform: translateY(50%);
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width:550px){
+    .form-bg{
+        background-position: -65vh;
+    }
+    .container{
+        transform: translateY(35%);
+    }
+}
+@media screen and (max-width:450px){
+    
+    .container{
+        width: 300px;  
+     
+    }
+}
+
+
+@media screen and (max-height:450px){
+    
+    .from-bg{
+        background-position: top right;
+    }
+    .container{
+
+        transform: translateY(25%);
+    }
+    .login{
+        height: 150vh;
+    }
+}
+@media screen and (max-height:550px){
+    
+    .form-bg{
+        background-position: 50%;
+    }
+    
+}

@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c276bb12.chunk.css",
+    "main.js": "/static/js/main.9578dd4d.chunk.js",
+    "main.js.map": "/static/js/main.9578dd4d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19b3b6f3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19b3b6f3.js.map",
+    "static/css/2.648ed26d.chunk.css": "/static/css/2.648ed26d.chunk.css",
+    "static/js/2.ddffb06c.chunk.js": "/static/js/2.ddffb06c.chunk.js",
+    "static/js/2.ddffb06c.chunk.js.map": "/static/js/2.ddffb06c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1ed00d75f63aa1f4f03cf23a0f41212d.js": "/precache-manifest.1ed00d75f63aa1f4f03cf23a0f41212d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.648ed26d.chunk.css.map": "/static/css/2.648ed26d.chunk.css.map",
+    "static/css/main.c276bb12.chunk.css.map": "/static/css/main.c276bb12.chunk.css.map",
+    "static/js/2.ddffb06c.chunk.js.LICENSE": "/static/js/2.ddffb06c.chunk.js.LICENSE",
+    "static/media/about.css": "/static/media/about-1.8df4d438.webp",
+    "static/media/about-sec-2.webm": "/static/media/about-sec-2.633735e1.webm",
+    "static/media/about-sec-3.webm": "/static/media/about-sec-3.c008b166.webm",
+    "static/media/ProfileDetail.css": "/static/media/blank_user.11c4fae2.webp",
+    "static/media/home.css": "/static/media/img-3.a1805d8c.webp",
+    "static/media/CollegeDetails.css": "/static/media/portrait-of-woman-photographing-with-smart-phone-248021.f53115bb.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19b3b6f3.js",
+    "static/css/2.648ed26d.chunk.css",
+    "static/js/2.ddffb06c.chunk.js",
+    "static/css/main.c276bb12.chunk.css",
+    "static/js/main.9578dd4d.chunk.js"
+  ]
+}

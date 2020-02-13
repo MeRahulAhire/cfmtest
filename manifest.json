@@ -2,7 +2,7 @@
   "name": "College Facemash",
   "short_name": "College Facemash",
   "theme_color": "#512da8",
-  "background_color": "#ffffff",
+  "background_color": "#512da8",
   "display": "standalone",
   "Scope": "/",
   "start_url": "/",
